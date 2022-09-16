@@ -1,0 +1,10 @@
+[15-Sep-2022 19:41:15 UTC] PHP Fatal error:  Uncaught Error: Class 'LiteSpeed\Activation' not found in /home/techaccessoriesc/public_html/sovtech/wp-content/plugins/litespeed-cache/src/root.cls.php:197
+Stack trace:
+#0 /home/techaccessoriesc/public_html/sovtech/wp-content/plugins/litespeed-cache/src/core.cls.php(146): LiteSpeed\Root::cls('LiteSpeed\\Activ...')
+#1 /home/techaccessoriesc/public_html/sovtech/wp-includes/class-wp-hook.php(307): LiteSpeed\Core->init('')
+#2 /home/techaccessoriesc/public_html/sovtech/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/techaccessoriesc/public_html/sovtech/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /home/techaccessoriesc/public_html/sovtech/wp-settings.php(576): do_action('after_setup_the...')
+#5 /home/techaccessoriesc/public_html/sovtech/wp-config.php(98): require_once('/home/techacces...')
+#6 /home/techaccessoriesc/public_html/sovtech/wp-load.php(50): require_once('/home/techacces...')
+#7 /home/techaccessoriesc/public_html/sovtech/wp-cron.php(44): require_once('/home/ in /home/techaccessoriesc/public_html/sovtech/wp-content/plugins/litespeed-cache/src/root.cls.php on line 197
